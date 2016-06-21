@@ -1,0 +1,87 @@
+/*this will be splinter says custom style*/
+#container-fluid {
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	left: 440px;
+	top: 30%;
+}
+#center {
+	position: relative;
+	left: 35%;
+	top: 25%;
+	background-image: url("/img/splinter.png");
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 200px;
+	width: 200px;
+	background-size: 100% 100%;
+	background-color: burlywood;
+}
+#red {
+	position: relative;
+	left: -29px;
+	top: -15%;
+	background-image: url("/img/raphael.png");
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 200px;
+	width: 200px;
+	background-size: 100% 100%;
+	background-color: pink;
+}
+#purple {
+	position: relative;
+	left: 375px;
+	top: -75px;
+	background-image: url("/img/donatello.png");
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 200px;
+	width: 200px;
+	background-size: 100% 100%;
+	background-color: orchid;
+}
+#blue {
+	position: relative;
+	top: 125px;
+	left: -29px;
+	background-image: url("/img/leonardo.png");
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 200px;
+	width: 200px;
+	background-size: 100% 100%;
+	background-color: lightblue;
+}
+#orange{
+	position: relative;
+	top: -275px;
+	left: -25px;
+	background-image: url("/img/michelangelo.png");
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 200px;
+	width: 200px;
+	background-size: 100% 100%;
+	background-color: coral;
+}
+#page {
+	background-image: url("/img/turtles_fg.jpg");
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-size: cover;
+	height: 100%
+}
+.tracker {
+	text-align: center;
+	color: ghostwhite;
+}
+.btn {
+	color: black;
+}
+#start {
+	position: absolute;
+	top: 15%;
+	left: 670px;
+}
