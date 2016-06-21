@@ -1,4 +1,3 @@
-#Codeup Web Exercises
+#Simple Simon
 
-This is my personal repository of web exercises I've completed during my amazing time at codeup
-Git is a very useful tool
+This will be my repository for a game I develop with inspiration from Simon Says.
