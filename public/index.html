@@ -3,30 +3,26 @@
 		<head>
 			<meta charset="utf-8">
 			<title>Splinter Says</title>
-			<link rel="stylesheet" href="/css/bootstrap.min.css">
+			<link rel="stylesheet" href="/css/bootstrap.css">
 			<link rel="stylesheet" href="/css/splinter_says.css">
 		</head>
 		<body id="page">
-			<!-- GAME HEADERS -->
+			<!-- GAME HEADERS && BACKGROUND -->
 			<h1 class="tracker">Splinter Says</h1>
-				<button  id="start" class="btn btn-info">Start Game</button>
-					<div class="tracker">Level:
-					</div>
-					<div class="tracker">Score:
+				<button  id="start" class="btn btn-info" data-action="start">Start Game</button>
+					<div class="tracker" data-level="lvl">
+						Level: <span id="lvl"></span>
 					</div>
 				<!-- GAME BUTTONS -->
-				<div id="container-fluid">
-					
-						<img id="center">
-					
-						<img id="red">
-					
-						<img id="purple">
-					
-						<img id="blue">
-					
-						<img id="orange">
+				<div class= "splinter" id="container-fluid">	
+					<img class="tile" id="center" data-tile="1">
+					<img class="tile" id="red" data-tile="2">
+					<img class="tile" id="purple" data-tile="3">
+					<img class="tile" id="blue" data-tile="4">
+					<img class="tile" id="orange" data-tile="5">
 				</div>
-<script src="/js/bootstrap.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.0.js"></script>
+<script src="/js/bootstrap.js"></script>
+<script src="/js/splinter_says.js"></script>
 		</body>
 	</html>
